@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours pour Enfants</title>
+    <link rel="stylesheet" href="../Style/mystyle.css">
+</head>
+<body>
+    <navbar>
+        <a href="#courses">Cours</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#payment">Paiement</a>
+        <a href="#contact">Contact</a>
+    </navbar>
+<div class="content">
+    <section class="sub-header">
+        <nav class="navbar">
+            <i class="menu-btn fa-solid fa-bars"></i>
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo image">
+            </a>
+            <ul class="links">
+                <i class="close-btn fa-solid fa-xmark"></i>
+                <li><a class="nav_link" href="../Acceuil/Home.html" id="home-link">ACCUEIL</a></li>
+                <li><a class="nav_link" href="../Blog/blog.html" id="blog-link">BLOG</a></li>
+                <li><a class="nav_link" href="#">COURS ▼</a>
+                    <div class="dropdown__menu">
+                        <ul>
+                            <li><a class="nav_link" href="#">ESPACE ADULTE</a></li>
+                            <li><a class="nav_link" href="../Cours/espaceEnfant.html">ESPACE ENFANT</a></li>
+                            <li><a class="nav_link" href="#">ESPACE FORMATEUR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="nav_link" href="../About/aboutUs.html" id="about-link">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>Espace Enfant</h1>
+    </section>
+
+    <div class="banner">
+        <h2>Cours amusants et interactifs pour les enfants !</h2>
+        <p>Apprenez l'intelligence artificielle, les bases de données, et la robotique en s'amusant.</p>
+    </div>
+
+    <section class="courses" id="courses">
+        <div class="course">
+            <img src="ai_course.jpg" alt="Intelligence Artificielle">
+            <h2>Intelligence Artificielle</h2>
+            <p>Un cours fascinant pour découvrir le monde de l'IA.</p>
+            <div class="price">Prix: 300 MAD</div>
+            <a href="#payment" class="buy-button">Acheter maintenant</a>
+        </div>
+        <div class="course">
+            <img src="db_course.jpg" alt="Bases de Données">
+            <h2>Bases de Données</h2>
+            <p>Apprenez à organiser et gérer des données.</p>
+            <div class="price">Prix: 250 MAD</div>
+            <a href="#payment" class="buy-button">Acheter maintenant</a>
+        </div>
+    </section>
+
+    <section class="quiz-section" id="quiz">
+        <h3>Testez vos connaissances avec notre quiz !</h3>
+        <form class="quiz-form">
+            <div class="quiz-question active">
+                <p>Question 1: Qu'est-ce qu'une base de données?</p>
+                <label><input type="radio" name="q1"> Un système de stockage de fichiers</label>
+                <label><input type="radio" name="q1"> Un ensemble de données organisées</label>
+                <label><input type="radio" name="q1"> Un programme informatique</label>
+            </div>
+            <div class="quiz-question">
+                <p>Question 2: Quelle est la fonction principale d'une intelligence artificielle?</p>
+                <label><input type="radio" name="q2"> Faire des calculs</label>
+                <label><input type="radio" name="q2"> Prendre des décisions automatiques</label>
+                <label><input type="radio" name="q2"> Dessiner des images</label>
+            </div>
+            <button type="button" class="next-button">Suivant</button>
+        </form>
+    </section>
+
+    <section class="payment-section" id="payment">
+        <h3>Informations de Paiement</h3>
+        <form>
+            <label for="name">Nom complet:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="card-number">Numéro de carte:</label>
+            <input type="number" id="card-number" name="card-number" required>
+
+            <label for="expiry-date">Date d'expiration:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="number" id="cvv" name="cvv" required>
+
+            <input type="submit" value="Payer">
+        </form>
+    </section>
+
+    <footer class="footer-black" id="contact">
+        <div class="footer-content">
+            <p>&copy; 2024 Cours pour Enfants. Tous droits réservés.</p>
+        </div>
+        <div class="subscribe-form">
+            <label for="email">Abonnez-vous à notre newsletter:</label>
+            <input type="email" id="email" placeholder="Entrez votre email">
+            <button type="button">S'abonner</button>
+        </div>
+        <div class="footer-info">
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: info@coursenfants.com</p>
+                <p>Téléphone: +212 600 000 000</p>
+            </div>
+            <div class="footer-links">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#courses">Cours</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                    <li><a href="#payment">Paiement</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../script/script2.js" defer></script>
+    <title>myTest</title>
+</head>
+<body>
+ <section>
+    <header>
+        <nav class="navbar">
+            <i class="menu-btn fa-solid fa-bars"></i>
+            <a href="#" class="logo">
+                <img src="../images/logo.png" alt="logo image">
+            </a>
+            <ul class="links">
+                <i class="close-btn fa-solid fa-xmark"></i>
+                <li><a class="nav_link" href="../Acceuil/Home.html" id="home-link">ACCUEIL</a></li>
+                <li><a class="nav_link" href="../Blog/blog.html" id="blog-link">BLOG</a></li>
+                <li><a href="#">COURS ▼</a>
+                    <div class="dropdown__menu">
+                        <ul>
+                            <li><a class="nav_link" href="#">ESPACE ADULTE</a></li>
+                            <li><a class="nav_link" href="../Cours/espaceEnfant.html">ESPACE ENFANT</a></li>
+                            <li><a class="nav_link" href="#">ESPACE FORMATEUR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="nav_link" href="../About/aboutUs.html" id="about-link">ABOUT US</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+        <div class="text-box">
+            <h1>Apprenez des compétences en IA et en Data Science en ligne ou en présentiel dès aujourd'hui !</h1>
+            <p> 
+                Maîtrisez votre expertise dans ces domaines révolutionnaires avec nos cours adaptés à tous les niveaux.
+            </p>
+            <a href="" class="hero-btn">Start Course</a>
+
+
+        </div>
+    </header>
+ </section>        
+  
+     <!--Pop up login screen-->
+     <div class="blur-bg-overlay">
+
+     </div>
+     <div class="form-popup">
+        <i class="close-btn fa-solid fa-xmark"></i>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>
+                    Welcome Back
+                </h2>
+                <p>
+                    Please log in using your personal information to stay connected with us.
+                </p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label for="">Mot de passe</label>
+                    </div>
+                    <a href="../ResetPassWd/forgetPass.html" class="forgot-pass">Mot de passe oublié?</a></br>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box Signup">
+            <div class="form-details">
+                <h2>
+                    Create Account
+                </h2>
+                <p>
+                    To become a part of our community, please sign up using your personal informations.
+                </p>
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label for="">Enter your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label for="">Create a password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree to the 
+                            <a href="#"> Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------Course ---------------------------> 
+<section class="Course-a">
+    <h1>Les cours que nous offrons</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis accusantium alias, veritatis quae reprehenderit aut necessitatibus. Maiores, at distinctio?</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Pour Enfants</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto autem cupiditate, expedita dicta aliquam quasi officiis. Dolore voluptatibus suscipit quo totam veniam molestiae doloremque adipisci, aspernatur dolor ullam, quia dolorum.</p>
+        </div>
+        <div class="course-col">
+            <h3>Pour Adultes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto autem cupiditate, expedita dicta aliquam quasi officiis. Dolore voluptatibus suscipit quo totam veniam molestiae doloremque adipisci, aspernatur dolor ullam, quia dolorum.</p>
+        </div>
+        
+    </div>
+</section>
+<section class="campus">
+    <h1>Cours les mieux notés</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, asperiores.</p>
+    <div class="campus-container">
+        <div class="campus-col">
+            <img src="../images/im2.jpg" alt="Foramtion 1">
+            <div class="layer">
+                <h3>Python for Data Science</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="../images/im3.webp" alt="Foramtion 2">
+            <div class="layer">
+                <h3>ML & DL Course</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="../images/im4.webp" alt="Foramtion 3">
+            <div class="layer">
+                <h3>Statistic crash course</h3>
+            </div>
+        </div>
+    </div>
+</section>   
+
+<!--------------------------Offers------------------------->  
+<section class="offers">
+    <h1>Nos offres</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, enim!</p>
+    <div class="row">
+        <div class="offers-col">
+            <img src="../images/im.webp" alt="image formation en lignes">
+            <h3>Online Courses</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odit voluptatibus, atque quam voluptas laborum expedita omnis. Facilis autem earum ipsa, animi quod voluptates aut. Nobis cupiditate dolores est ea!</p>
+        </div>
+        <div class="offers-col">
+            <img src="../images/banner2.jpg" alt="image formation en lignes">
+            <h3>In-Person Courses</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi odit voluptatibus, atque quam voluptas laborum expedita omnis. Facilis autem earum ipsa, animi quod voluptates aut. Nobis cupiditate dolores est ea!</p>
+        </div>
+    </div>
+</section>
+
+<!---------------------testimonials----------------------->
+<section class="testimonials">
+    <h1>Retours de nos étudiants</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, architecto.</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="../images/user1.jpg" alt="user">
+            <div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur porro, assumenda laboriosam veritatis commodi atque ex deserunt. Facilis, explicabo eum? Aperiam iste eos mollitia necessitatibus harum expedita dignissimos? Nostrum, mollitia.
+                </p>
+                <h3>Jackline paston</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="../images/user2.jpg" alt="user">
+            <div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur porro, assumenda laboriosam veritatis commodi atque ex deserunt. Facilis, explicabo eum? Aperiam iste eos mollitia necessitatibus harum expedita dignissimos? Nostrum, mollitia.
+                </p>
+                <h3>Pierre Salin</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------Call To Action------------------->
+<section class="cta">
+    <h1>Inscrivez-vous à nos différents cours, où que vous soyez dans le monde</h1>
+    <a href="../Contact/contact.html" class="hero-btn">CONTACT US</a>
+</section>
+<!---------------------Footer---------------------------->
+<footer class="footer-black">
+    <div class="footer-content">
+        <p>Recevez des conseils et astuces sur les formations directement dans votre boîte de réception.</p>
+        <form class="subscribe-form">
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            <button type="submit" class="btn-primary">S'abonner</button>
+        </form>
+    </div>
+    <div class="footer-info">
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>12 rue Saria, Casablanca</p>
+            <p>Maroc</p>
+            <p>+212 ........</p>
+            <p><a href="mailto:mail@example.com">mail@example.com</a></p>
+        </div>
+        <div class="footer-links">
+            <h3>Sujets</h3>
+            <ul>
+                <li><a href="#">Robotiques</a></li>
+                <li><a href="#">Algorithmes</a></li>
+                <li><a href="#">Intelligence Artificielle</a></li>
+                <li><a href="#">Data Science</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2024 Heuristik Learning</p>
+    </div>
+</footer>
+
+</body>
+</html>

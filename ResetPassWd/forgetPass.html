@@ -1,0 +1,87 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/mystyle.css">
+    <link rel="stylesheet" href="../Style/style01.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../script/script2.js" defer></script>
+
+    <title>mot de passe oublié</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="navbar">
+            <i class="menu-btn fa-solid fa-bars"></i>
+            <a href="#" class="logo">
+                <img src="../images/logo.png" alt="logo image">
+            </a>
+            <ul class="links">
+                <i class="close-btn fa-solid fa-xmark"></i>
+                <li><a class="nav_link" href="../Acceuil/Home.html" id="home-link">ACCUEIL</a></li>
+                <li><a class="nav_link" href="../Blog/blog.html" id="blog-link">BLOG</a></li>
+                <li><a class="nav_link" href="#">COURS ▼</a>
+                    <div class="dropdown__menu">
+                        <ul>
+                            <li><a class="nav_link" href="#">ESPACE ADULTE</a></li>
+                            <li><a class="nav_link" href="../Cours/espaceEnfant.html">ESPACE ENFANT</a></li>
+                            <li><a class="nav_link" href="#">ESPACE FORMATEUR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="nav_link" href="../About/aboutUs.html" id="about-link">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>MOT DE PASSE OUBLIE</h1>
+    </section>
+ <!-----------------contenu------------------>
+ <section class="forget-pass" justify-items="center">
+   <div class="container">
+     
+      <div class="col">
+        <h2>Mot De Passe oublié? </h2>
+        <p>Entrez votre adresse email pour réinitialiser votre mot de passe!</p>
+        <form action="/reset-password" method="post">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <a href="/codeVerif.html" class="hero-btn">soumettre</a>
+        </form>
+      </div>
+   </div>
+</section>
+ <!------------------------Footer-------------------->
+ <footer class="footer-black">
+    <div class="footer-content">
+        <p>Recevez des conseils et astuces sur les formations directement dans votre boîte de réception.</p>
+        <form class="subscribe-form">
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            <button type="submit" class="btn-primary">S'abonner</button>
+        </form>
+    </div>
+    <div class="footer-info">
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>12 rue Saria, Casablanca</p>
+            <p>Maroc</p>
+            <p>+212 ........</p>
+            <p><a href="mailto:mail@example.com">mail@example.com</a></p>
+        </div>
+        <div class="footer-links">
+            <h3>Sujets</h3>
+            <ul>
+                <li><a href="#">Robotiques</a></li>
+                <li><a href="#">Algorithmes</a></li>
+                <li><a href="#">Intelligence Artificielle</a></li>
+                <li><a href="#">Data Science</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2024 Heuristik Learning</p>
+    </div>
+</footer>
+
+</body>
+</html>

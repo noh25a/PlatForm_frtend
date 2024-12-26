@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Heuristik Learning</title>
+    <link rel="stylesheet" href="../Style/mystyle.css">
+    <script src="../script/script2.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="sub-header">
+        <nav class="navbar">
+            <i class="menu-btn fa-solid fa-bars"></i>
+            <a href="#" class="logo">
+                <img src="../images/logo.png" alt="logo image">
+            </a>
+            <ul class="links">
+                <i class="close-btn fa-solid fa-xmark"></i>
+                <li><a class="nav_link" href="../Acceuil/Home.html" id="home-link">ACCUEIL</a></li>
+                <li><a class="nav_link" href="../Blog/blog.html" id="blog-link">BLOG</a></li>
+                <li><a class="nav_link" href="#">COURS ▼</a>
+                    <div class="dropdown__menu">
+                        <ul>
+                            <li><a class="nav_link" href="#">ESPACE ADULTE</a></li>
+                            <li><a class="nav_link" href="../Cours/espaceEnfant.html">ESPACE ENFANT</a></li>
+                            <li><a class="nav_link" href="#">ESPACE FORMATEUR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="nav_link" href="../About/aboutUs.html" id="about-link">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+
+    <section class="blog-content">
+        <h2>Derniers blogs & Articles</h2>
+        <p class="blog-intro">Bienvenue sur notre blog. Ici, nous partageons les dernières nouvelles, recherches et applications en intelligence artificielle et data science, ainsi que des ressources pour améliorer vos compétences de développeur.</p>
+
+        <div class="blog-cards">
+            <div class="blog-card">
+                <img src="../images/data-science.jpg" alt="Data Science">
+                <div class="blog-info">
+                    <span class="category">Data Science</span>
+                    <h3>Le Rôle de la Science des Données dans les Affaires Modernes : Un Aperçu</h3>
+                    <p>Explorez comment la science des données transforme la manière dont les entreprises prennent des décisions stratégiques...</p>
+                    <a href="blogdata.html" class="btn-read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="../images/ai.jpg" alt="Intelligence Artificielle">
+                <div class="blog-info">
+                    <span class="category">IA</span>
+                    <h3>Le rôle de l'Intelligence Artificielle dans le paysage commercial actuel</h3>
+                    <p>En 2024, l'Intelligence Artificielle est devenue un élément clé dans le développement et l'optimisation des stratégies commerciales...</p>
+                    <a href="blogia.html" class="btn-read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="../images/robotics.jpg" alt="Robotique">
+                <div class="blog-info">
+                    <span class="category">Robotique</span>
+                    <h3>La Robotique dans l'Industrie : Tendance, Innovations, et Défis</h3>
+                    <p>Découvrez les dernières tendances en matière de robotique et comment elles impactent les industries à l'échelle mondiale...</p>
+                    <a href="blogrobotique.html" class="btn-read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="info-card">
+            <h3>À Propos</h3>
+            <p>Découvrez notre histoire, nos valeurs et la mission qui guide Heuristik Learning dans l'univers de l'éducation en ligne et en présentiel.</p>
+            <a href="#" class="btn-info">En savoir plus</a>
+        </div>
+        <div class="info-card">
+            <h3>Contact</h3>
+            <p>Vous avez des questions ? Besoin d'assistance ? Contactez notre équipe pour obtenir l'aide dont vous avez besoin.</p>
+            <a href="../Contact/contact.html" class="btn-info">Nous contacter</a>
+        </div>
+        <div class="info-card">
+            <h3>FAQs</h3>
+            <p>Trouvez des réponses à vos questions les plus fréquentes sur nos cours, notre plateforme et plus encore.</p>
+            <a href="#" class="btn-info">Voir les FAQs</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-black">
+        <div class="footer-content">
+            <h3>Inscription à la newsletter</h3>
+            <p>Recevez des conseils et astuces sur les formations directement dans votre boîte de réception.</p>
+            <form class="subscribe-form">
+                <label for="email">Adresse email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email">
+                <button type="submit">S'abonner</button>
+            </form>
+        </div>
+        <div class="footer-info">
+            <div class="footer-contact">
+                <h3>Contactez-nous</h3>
+                <p>Adresse: 123 Rue de l'Éducation, Paris</p>
+                <p>Email: info@heuristiklearning.com</p>
+            </div>
+            <div class="footer-links">
+                <h3>Liens Utiles</h3>
+                <ul>
+                    <li><a href="../Acceuil/Home.html">Accueil</a></li>
+                    <li><a href="#">Cours</a></li>
+                    <li><a href="../About/aboutUs.html">À Propos</a></li>
+                    <li><a href="../Contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Heuristik Learning. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

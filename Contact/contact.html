@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../Style/mystyle.css">
+    <script src="../script/script2.js" defer></script>
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav class="navbar">
+            <i class="menu-btn fa-solid fa-bars"></i>
+            <a href="#" class="logo">
+                <img src="../images/logo.png" alt="logo image">
+            </a>
+            <ul class="links">
+                <i class="close-btn fa-solid fa-xmark"></i>
+                <li><a class="nav_link" href="../Acceuil/Home.html" id="home-link">ACCUEIL</a></li>
+                <li><a class="nav_link" href="../Blog/blog.html" id="blog-link">BLOG</a></li>
+                <li><a class="nav_link" href="#">COURS ▼</a>
+                    <div class="dropdown__menu">
+                        <ul>
+                            <li><a class="nav_link" href="#">ESPACE ADULTE</a></li>
+                            <li><a class="nav_link" href="../Cours/espaceEnfant.html">ESPACE ENFANT</a></li>
+                            <li><a class="nav_link" href="#">ESPACE FORMATEUR</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="nav_link" href="../About/aboutUs.html" id="about-link">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+ <!-----------------contenu------------------>
+ 
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h2>Contactez-nous</h2>
+            <p>"Contactez-nous pour toute information sur nos formations en data, IA, robotique et algorithmique pour enfants et adultes."</p>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Casablanca, Maroc</span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>+212 ............</span>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <span>heuristik@example.com</span>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-medium"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="name">Nom *</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Sujet *</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer Message</button>
+            </form>
+        </div>
+    </section>
+        <!-- Map Section -->
+        <section class="map-section">
+            <h2>Notre Localisation</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.960877822495!2d-7.622665124585467!3d33.5789642212459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7c191f392b631%3A0x7c0faffc781a9b82!2sCasablanca!5e0!3m2!1sen!2sma!4v1620306201849!5m2!1sen!2sma" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer-black">
+        <div class="footer-content">
+            <p>Recevez des conseils et astuces sur les formations directement dans votre boîte de réception.</p>
+            <form class="subscribe-form">
+                <label for="email">Adresse email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+                <button type="submit" class="btn-primary">S'abonner</button>
+            </form>
+        </div>
+        <div class="footer-info">
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>12 rue Saria, Casablanca</p>
+                <p>Maroc</p>
+                <p>+212 ........</p>
+                <p><a href="mailto:mail@example.com">mail@example.com</a></p>
+            </div>
+            <div class="footer-links">
+                <h3>Sujets</h3>
+                <ul>
+                    <li><a href="#">Robotiques</a></li>
+                    <li><a href="#">Algorithmes</a></li>
+                    <li><a href="#">Intelligence Artificielle</a></li>
+                    <li><a href="#">Data Science</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Heuristik Learning</p>
+        </div>
+    </footer>
+</body>
+
+</html>
